@@ -18,4 +18,11 @@ public class MoodAnalyserTest {
          Assert.assertThat(mood, CoreMatchers.is("SAD"));
     
     }
+
+    @Test
+    public void givenNullShouldReturnHappy() {
+        MoodAnalyser moodAnalyser = new MoodAnalyser(null);
+        String mood = moodAnalyser.analyseMood();
+        Assert.assertEquals("HAPPY",mood);
+    }
 }

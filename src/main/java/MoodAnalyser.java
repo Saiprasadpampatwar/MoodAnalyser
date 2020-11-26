@@ -7,12 +7,17 @@ public class MoodAnalyser {
         this.massage = massage;
     }
     public String analyseMood() {
-        if (massage.contains(("sad"))){
-            return "SAD";
-        }
-        else {
+        try {
+            if (massage.contains(("sad"))){
+                return "SAD";
+            }
+            else {
+                return "HAPPY";
+            }
+        }catch (NullPointerException e){
             return "HAPPY";
         }
+
     }
 
 
