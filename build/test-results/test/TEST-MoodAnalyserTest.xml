@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MoodAnalyserTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-11-26T07:20:35" hostname="DESKTOP-9G5SK1M" time="0.006">
+  <properties/>
+  <testcase name="testMoodAnalysis" classname="MoodAnalyserTest" time="0.006"/>
+  <testcase name="happyMoods" classname="MoodAnalyserTest" time="0.0"/>
+  <system-out><![CDATA[SAD
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
